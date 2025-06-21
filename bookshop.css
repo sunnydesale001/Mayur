@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 100%;
+    background: url(bookbg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    
+} 
+
+.navbar{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+
+.navbar .logo{
+     width: 130px;
+     cursor: pointer;
+     border-radius: 100px;
+     margin-top: 1%;
+     margin-left: -6%;
+}
+
+ul{
+margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 28px;
+    margin-right: -60px;
+
+}
+
+ul li a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(34, 32, 30);
+    margin-top: -3%;
+    transition: .5s ease;
+    text-decoration: rgb(255, 0, 0) 2px;
+}
+
+ul li a:hover{
+    color: rgb(218, 0, 0); 
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36, 34, 34);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(223, 0, 0);
+}
+
+.info a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 36px 0;
+    padding: inline-block;
+    border-radius: 1px 1vh;
+    display: inline-block; 
+    transition: .4s ease;
+    font-size: 15px;
+
+}
+.info a:hover{
+    background-color: rgb(0, 125, 250);
+}
+
+.image{
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 2px;
+    margin-right: 20px;
+    width: 40px;
+     
+}
+
+.image img{
+    position: absolute;
+    height: 90%;
+    left: 20% 0;
+    transform: translate(-55%);
+    bottom: 0;
+    border-radius: 1000vh;
+    transition: left 2s ease;
+}
+
+.image:hover .sunny{
+    left: 50%;
+}
+
+#icon{
+    height: 120px;
+    margin-left: 675px;
+    margin-top: -30px;
+    
+}
+
+#shop{
+   border-bottom-color: rgb(28, 28, 28);
+   height: 23px;
+   color: rgb(0, 0, 0);
+   width: 60px;
+   cursor: pointer;
+   font-size: 2vh;
+   border-radius: 10px;
+}
+
+#shop:hover{
+    background-color: rgb(0, 245, 249);
+}
+
+
+#srch{
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    width: 355px;
+    border: 3.5px solid rgb(0, 0, 0);
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+#srch:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+

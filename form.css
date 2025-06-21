@@ -1,0 +1,50 @@
+
+body{
+    background-color: skyblue;
+    justify-content: center;
+    display: flex;
+    margin: 300px;
+   
+}
+
+.flexcontainer{
+    background-color: rgb(255, 165, 151);
+    height: 500px;
+    width: 500px;
+    border: 5px ;
+    border-color: rgb(2, 2, 2);
+}
+
+#username{
+    margin-top: 40px;
+    margin-left: 150px;
+    
+}
+#emailid{
+    margin-left: 150px;
+
+}
+#password{
+    margin-left: 150px;
+}
+#conformpassword{
+    margin-left: 150px;
+}
+#gender{
+    margin: 150px;
+
+}
+#birthdate{
+    margin-left: 150px;
+
+}
+#mobileno{
+    margin-left: 150px;
+}
+#address{
+    margin-left: 150px;
+}
+#submit{
+    margin-left: 150px;
+    margin-bottom: 40px;
+}

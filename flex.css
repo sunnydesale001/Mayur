@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:center;
+    margin-top: 200px;
+}
+.flexcontainer{
+    background-color:rgb(202, 215, 58);
+   height: 400px;
+   width: 400px;
+   /* padding: 50px; */
+   /* margin: 100px 250px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* flex-direction: column; */
+   justify-content: space-around;
+   border: 5px dashed;
+   border-color: rgb(255, 0, 102);
+
+
+   
+
+}
+.flexitems{
+    height:60px; 
+    width:60px;
+    border-radius: 25px;
+    background-color: rgb(243, 136, 5);
+    border: 2px solid rgba(58, 148, 238, 0.667);
+
+    
+}
